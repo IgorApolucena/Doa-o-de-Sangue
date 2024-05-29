@@ -1,0 +1,9 @@
+idade = int(input("Qual a idade: "))
+peso = int(input("Qual o peso?: "))
+gra = str(input("Você está grávida? (S/N): ")).upper()
+dias = int(input("Quantos dias faz desde a sua última doação de sangue?: "))
+
+if (idade>16) and (idade<69) and (peso >= 50) and (gra == "N") and (dias < 90):
+  print("Autorização de doação de sangue aprovada!")
+else:
+  print("Autorização de doação de sangue negada.")
